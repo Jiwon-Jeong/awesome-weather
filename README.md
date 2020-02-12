@@ -1,2 +1,3 @@
-# awesome-weather
+# Awesome Weather
+
 React Native Weather App
