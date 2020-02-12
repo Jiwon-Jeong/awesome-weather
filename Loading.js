@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Loading() {
   return (
     <View style={styles.container}>
-      <Text style={styles.textView}>How's the Weather Today?</Text>
+      <Text style={styles.text}>How's the Weather Today?</Text>
     </View>
   );
 }
@@ -17,8 +17,8 @@ const styles = StyleSheet.create({
     paddingVertical: 200,
     backgroundColor: "black"
   },
-  textView: {
-    color: "#39FF14",
+  text: {
+    color: "white",
     fontSize: 30
   }
 });
