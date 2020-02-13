@@ -47,6 +47,12 @@ const weatherOptions = {
     title: "Haze",
     subtitle: "I..I can't see anything.."
   },
+  Mist: {
+    iconName: "weather-fog",
+    gradient: ["#1D2B64", "#F8CDDA"],
+    title: "Mist",
+    subtitle: "Take care not to catch a cold!"
+  },
   Tornado: {
     iconName: "weather-hurricane",
     gradient: ["#6441A5", "#2a0845"],
@@ -95,6 +101,7 @@ Weather.propTypes = {
     "Clear",
     "Clouds",
     "Haze",
+    "Mist",
     "Tornado",
     "Fog"
   ])
